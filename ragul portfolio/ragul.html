@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fb424f4ba2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#intenship">Intenship</a></li>
+                <li><a href="#portfolio">Certification</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Ragul</span> <br> From Madurai</h1>
+            <h4>Full Stack Web Developer </h4>
+        </div>
+    </div>
+    <!--------------------about---------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo/1717302003021.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About me</h1>
+                    <p>
+                        I am a final-year engineering student passionate about technology and innovation. I have practical experience in full-stack web development and am constantly expanding my skills. I am highly motivated, dependable, and eager to learn and adapt to new challenges.
+                        With a positive attitude and a commitment to excellence, I am excited about contributing to innovative projects and advancing my career in web development </p>
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Area')">Area Of Intersted</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <h2><span>Programming Language</span></h2>
+                        <ul>
+                            <li>DBMS</li>
+                            <li>C</li>
+                            <li>JAVA</li>
+                        </ul><br>
+                        <h2><span>Web Development</span> </h2>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CCSS</li>
+                        </ul><br>
+                        <h2><span>Tools and Technologies</span> </h2>
+                        <ul>
+                            <li>GitHub</li>
+                            <li>Visual Studio Code</li>
+                        </ul><br>
+                        <h2><span>Interpersonal Skills</span> </h2>
+                        <ul>
+                            <li>Communication</li>
+                            <li>Problem-Solving</li>
+                        </ul><br>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <h2><span>BE CSE</span> </h2>
+                        <ul>
+                            <li>Sethu Institute of Technology</li>
+                        </ul><br>
+                        <h2><span>Diploma</span> </h2>
+                        <ul>
+                            <li>K L Nagaswami Polythnic Collage</li>
+                        </ul><br>
+                        <h2><span>10th</span> </h2>
+                        <ul>
+                            <li>Rose Matriculation Hr Sec School</li>
+                        </ul><br>
+                    </div>
+                    <div class="tab-contents" id="Area">
+                        <h2><span>Full-Stack Web Development</span> </h2><br><br>
+                        <h2><span>Front-End</span> </h2><br><br>
+                        <h2><span>Web Developer</span> </h2><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------intenship-------------->
+    <div id="intenship">
+        <div class="container">
+            <h1 class="sub-tittle">Intenship</h1>
+            <div class="services-list">
+                <div class="work">
+                    <img src="certificate/IOT-Aurdino.jpg">
+                    <div class="layer">
+                        <h3>Internship Certificate</h3>
+                        <p>Programming with Aurdino-uno</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="certificate/Rasberry Pi.jpg">
+                    <div class="layer">
+                        <h3>Internship Certificate</h3>
+                        <p>Programming with Raspberry Pi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------certification------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">Certification</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="certificate/Python form Scratch.png">
+                    <div class="layer">
+                        <p>Certificate for Course Completion</p>
+                        <h3>Exploring Python from scratch at Rajalakshmi University through online learning</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="certificate/ChatBot In Banking Server.jpg">
+                    <div class="layer">
+                        <p>Certificate Of Presentation</p>
+                        <h3>Recognized for innovation: presenting the 'ChatBot In Banking Server' project at my college</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="certificate/Microsoft Azure Cloud Computing.jpg">
+                    <div class="layer">
+                        <p>Certificate For Completion</p>
+                        <h3>Empowering learning: mastering Azure cloud computing on campus for future tech endeavors</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="certificate/Python Fullstack.jpg">
+                    <div class="layer">
+                        <p>Certificate for Course Completion</p>
+                        <h3>From campus to code: exploring Python full-stack projects in a dynamic internship experience</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="certificate/Rotaract Club.jpg">
+                    <div class="layer">
+                        <p>Certificate For Rotaract Club </p>
+                        <h3>Joined the Rotaract Club as a member during college years</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="certificate/Relay.jpg">
+                    <div class="layer">
+                        <p>Certificate Of Merit</p>
+                        <h3>Achieved 4th place in relay during my diploma years.</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="certificate/yoga day.jpg">
+                    <div class="layer">
+                        <p>Certificate Of Participation</p>
+                        <h3>Received a Participation Certificate in Yoga Day during school years.</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="certificate/Drawing Competition.jpg">
+                    <div class="layer">
+                        <p>Certificate Of Merit</p>
+                        <h3>Recognized for artistic talent with a Certificate of Merit in drawing during school years.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------contact-------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> rahul030504@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 8825609165</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/shadow_boy_3_5_4/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ragul-a-v-63a95728a/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="C:\Users\hi\OneDrive\Desktop\rahul resum.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form method="POST" name="submit-to-google-sheet">
+                        <input type="name" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" row="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright RT<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = "https://script.google.com/macros/s/AKfycbxmFZD2FOL49U9DQBjCl_AJwSfx0vcUGB-pm1sFiVN_tGongQzjggX-3rUzuZtSiagS/exec";
+        const form = document.forms['submit-to-google-sheet'];
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message));
+        });
+    </script>
+</body>
+
+</html>
